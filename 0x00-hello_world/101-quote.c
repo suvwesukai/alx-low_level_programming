@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- * main Entry-point
- * Print message to standard error
+ * main -  Entry point
+ *
  * Return: 1
  */
 
