@@ -12,7 +12,7 @@
 int main(void)
 {
 	char lowercase = 'a';
-	char uppercae = 'A';
+	char uppercase = 'A';
 	int i;
 
 	/* print lowercase alphabets */
