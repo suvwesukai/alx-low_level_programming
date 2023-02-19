@@ -20,7 +20,7 @@ int main(void)
 		{
 			putchar(lowercase);
 		}
-		lowecase++;
+		lowercase++;
 	}
 	putchar('\n');
 	return (0);
