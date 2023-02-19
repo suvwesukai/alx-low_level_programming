@@ -13,7 +13,7 @@ int main(void)
 	char rev_lowercase = 'z';
 	int i;
 
-	for (i = 0; i < 26; i--)
+	while (i >= a)
 	{
 		putchar(rev_lowercase);
 		rev_lowercase--;
