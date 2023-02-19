@@ -11,7 +11,6 @@
 int main(void)
 {
 	char rev_lowercase = 'z';
-	int i;
 
 	while (rev_lowercase >= 'a')
 	{
