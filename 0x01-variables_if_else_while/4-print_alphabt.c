@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (lowercase != 'q' && lowercase != 'e')
+		if (lowercase != 'e' && lowercase != 'q')
 		{
 			putchar(lowercase);
 			lowercase++;
