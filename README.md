@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 low_level_programming
 =======
 ## alx-low_level_programming
@@ -14,4 +13,3 @@ The specific lists of projects are as follows:
 [0x04. C - More functions, more nested loops]
 [0x05. C - Pointers, arrays and strings]
 [0x06. C - More pointers, arrays and strings]
->>>>>>> fe5fba3940d8e8daf40634ac6c033e3f5db0a3c3
