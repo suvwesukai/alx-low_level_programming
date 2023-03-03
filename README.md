@@ -1,6 +1,4 @@
-low_level_programming
-=======
-### alx-low_level_programming
+## alx-low_level_programming
 #
 This repository contains module of low level program carried out during software engineering track at alxAfrica. In these projects, I worked with C programming language.
 The code uses the betty-style and all scripts tested on Ubuntu 20.04 LTS
