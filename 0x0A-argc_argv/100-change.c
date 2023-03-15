@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	}
 	for (i = 0; ((i < 5) && (num > 0)); i++)
 	{
-		cent = cent + (num/coin[i]);
+		cent = cent + (num / coin[i]);
 		num %= coin[i];
 	}
 	printf("%d\n", cent);
