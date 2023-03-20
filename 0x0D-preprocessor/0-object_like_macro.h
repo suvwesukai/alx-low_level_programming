@@ -2,7 +2,8 @@
 #define OBJECT_LIKE_MACRO_H
 
 /**
- * header file that defines a macro named SIZE
+ * File: 0-object_like_macro.h
+ * Defines a macro named SIZE
  */
 
 #define SIZE 1024
