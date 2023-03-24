@@ -4,7 +4,7 @@
 #include <stddef.h>
 
 /**
- * print_all - Prints anything
+ * print_all - Function that prints anything
  * @format: a list of types of arguments passed to the function
  *
  * Return: void
@@ -12,11 +12,12 @@
 void print_all(const char * const format, ...)
 {
 	va_list ap;
-	int i = 0;
-	char *s, *separator = "";
+	unsigned int i;
+	char *s, *separator;
 
 	va_start(ap, format);
-
+	separator = "";
+	i = 0;
 	while (format && format[i])
 	{
 		switch (format[i])
@@ -32,8 +33,8 @@ void print_all(const char * const format, ...)
 				break;
 			case 's':
 				s = va_arg(ap, char *);
-				if (!s || s == NULL)
-					printf("%s(nil)", separator);
+				if (s == NULL)
+					s = "(nil)";
 				printf("%s%s", separator, s);
 				break;
 			default:
