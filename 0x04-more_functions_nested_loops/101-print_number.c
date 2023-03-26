@@ -4,7 +4,7 @@
  * print_number - Prints an integer using _putchar
  * @n: The integer to be printed
  *
- * Return: Nothing. 
+ * Return: Nothing.
  */
 void print_number(int n)
 {
@@ -20,10 +20,12 @@ void print_number(int n)
 		num = n;
 	}
 
+	digit = num;
 	count = 1;
 
-	while (num / count >= 10)
+	while (digit > 9)
 	{
+		digit /= 10;
 		count *= 10;
 	}
 	while (count > 0)
@@ -32,5 +34,5 @@ void print_number(int n)
 		_putchar(digit + '0');
 		num %= count;
 		count /= 10;
-	}	
+	}
 }
