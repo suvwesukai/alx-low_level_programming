@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int random_num = 0;
+	char random_num;
 	int current_sum = 0;
 
 	srand(time(NULL));
@@ -24,6 +24,5 @@ int main(void)
 		putchar(random_num);
 	}
 	putchar(2772 - current_sum);
-	putchar('\n');
 	return (0);
 }
