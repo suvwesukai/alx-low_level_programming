@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-	unsigned int i, num1, num2, sum;
+	unsigned long int i, num1, num2, sum;
 
 	num1 = 1;
 	num2 = 2;
 
-	printf("%d, %d, ", num1, num2);
+	printf("%ld, %ld, ", num1, num2);
 	for (i = 3; i <= 50; i++)
 	{
 		sum = num1 + num2;
-		printf("%d", sum);
+		printf("%ld", sum);
 		if (i < 50)
 			printf(", ");
 		num1 = num2;
