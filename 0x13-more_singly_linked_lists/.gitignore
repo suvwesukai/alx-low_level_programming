@@ -2,6 +2,6 @@
 *main.c
 *.swp
 
-/** valgrinf **/
+/** valgrind **/
 vgcore.5737
 vgcore.5723
