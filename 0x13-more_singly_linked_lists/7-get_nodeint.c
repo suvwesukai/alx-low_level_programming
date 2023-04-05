@@ -13,7 +13,11 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 	listint_t *value;
 	unsigned int count = 0;
 
+<<<<<<< HEAD
 	if (head == NULL)
+=======
+	if (head == NULL || index <= 0)
+>>>>>>> 96d5b9f3f9fb78923bd52b1763da81f05b3dc1c3
 		return (NULL);
 
 	value = head;
