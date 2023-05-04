@@ -1,0 +1,4 @@
+*.out
+*.swp
+*main.c
+*.swo
