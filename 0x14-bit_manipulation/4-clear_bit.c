@@ -12,8 +12,8 @@ int clear_bit(unsigned long int *n, unsigned int index)
 	unsigned long int mask, bit, chk;
 
 
-	chk = ~1;
-	mask = chk << index;
+	chk = 1;
+	mask = ~(chk << index);
 	bit = sizeof(unsigned long int) * 8;
 
 	if (index >= bit)
